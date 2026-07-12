@@ -1,29 +1,31 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
-	<title= ARIA roles>
+    <link rel="stylesheet" href="styles.css">
+    <title>ARIA roles</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-	<img src= "1.jpg" alt="image not found" >
-	<h1>
-		heading
-	</h1>
-	<ul>
-		<li>listitem</li>
-		<li>listitem</li>
-		<li>listitem</li>
-	</ul>
-	<nav>
-		navigation
-	</nav>
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- Navigation Bar -->
+    <nav role="navigation">
+        <a href="#home">Home</a> | <a href="#about">About</a> | <a href="#projects">Projects</a>
+    </nav>
 
+    <!-- Heading -->
+    <h1 role="heading">My Accessible Portfolio</h1>
+
+    <!-- Image with alt text -->
+    <img src="1.jpg" alt="Profile or project showcase banner" role="img">
+
+    <!-- Brief Description -->
+    <p>Welcome to my portfolio! I am a developer focused on building clean, responsive, and fully accessible web experiences for everyone.</p>
+
+    <!-- List of items (e.g., Skills or Projects) -->
+    <ul role="list">
+        <li role="listitem">HTML & CSS Accessibility</li>
+        <li role="listitem">JavaScript & React Development</li>
+        <li role="listitem">Responsive Web Design</li>
+    </ul>
+
+    <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
